@@ -3,12 +3,61 @@
 <html lang="EN-US">
     <head>
         <!--<link rel="icon" href="http://example.com/favicon.png"> -->
-        <link rel="stylesheet" href="index.css"> <!--Links stylesheet-->
+        <!--<link rel="stylesheet" href="index.css"> --> <!--Links stylesheet-->
         <meta charset="UTF-8"/>
         <title>Micahsoft</title> <!--Placeholder-->
+        <style>
+            .cells{
+                text-align:center;
+                border-right-style:solid;
+                border-left-style:solid;
+                border-bottom-style:solid;
+                border-top-style:solid;
+            }
+            .highlightR{
+                text-align:center;
+                border-right-style:solid;
+                border-left-style:solid;
+                border-bottom-style:solid;
+                border-top-style:solid; 
+                border-color:red;
+                background-color:darkred;
+            }
+            .highlightY{
+                text-align:center;
+                border-right-style:solid;
+                border-left-style:solid;
+                border-bottom-style:solid;
+                border-top-style:solid; 
+                border-color:yellow;
+                background-color:yellowgreen;
+            }
+            .invisible{
+                visibility:hidden;
+            }
+            .visible{
+                visibility:visible;
+            }
+        
+        
+        
+        
+        
+        </style>
+        <script src="Connect4.js"></script>
     </head>
     <body>
         <h1>Welcome to the Placeholder Website for micahsoft.net!</h1>
-        <p>This is just a test, don't get too excited</p>
+        <p>This is just a test, don't get too excited. While you wait, you might as well play a game of connect 4</p>
+        <button onclick="createBoard()">Start Game</button>
+        <p class="invisible" id="p">Current Player: <span id="playerText">Replace This Text</span></p>
+        <table id="grid">
+            <tr id="dropperRow" class="invisible">
+                <th id="dropper0"><button onclick="dropInto(this)">\ /</button></th>
+            </tr>
+            <tr id="row0">
+                <td id="cell00" class="cells invisible">O</td>
+            </tr>
+        </table>
     </body>
 </html>
