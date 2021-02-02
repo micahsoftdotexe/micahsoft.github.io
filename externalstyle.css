@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #2BE9B7;
+    background: -webkit-radial-gradient(top left, #2BE9B7, #89F4C3);
+    background: -moz-radial-gradient(top left, #2BE9B7, #89F4C3);
+    background: radial-gradient(to bottom right, #2BE9B7, #89F4C3);
+} 
+.center{
+    text-align: center;
+}
+.centerul{
+    display:table;
+    margin: 0 auto;
+}
+.cells{
+    text-align:center;
+    border-right-style:solid;
+    border-left-style:solid;
+    border-bottom-style:solid;
+    border-top-style:solid;
+}
+.highlightR{
+    text-align:center;
+    border-right-style:solid;
+    border-left-style:solid;
+    border-bottom-style:solid;
+    border-top-style:solid; 
+    border-color:red;
+    background-color:darkred;
+}
+.highlightY{
+    text-align:center;
+    border-right-style:solid;
+    border-left-style:solid;
+    border-bottom-style:solid;
+    border-top-style:solid; 
+    border-color:yellow;
+    background-color:yellowgreen;
+}
+.invisible{
+    visibility:hidden;
+}
+.visible{
+    visibility:visible;
+}
