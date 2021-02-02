@@ -7,57 +7,58 @@
         <meta charset="UTF-8"/>
         <title>Micahsoft</title> <!--Placeholder-->
         <style>
-            .cells{
-                text-align:center;
-                border-right-style:solid;
-                border-left-style:solid;
-                border-bottom-style:solid;
-                border-top-style:solid;
+            html{
+                height: 100%;
             }
-            .highlightR{
-                text-align:center;
-                border-right-style:solid;
-                border-left-style:solid;
-                border-bottom-style:solid;
-                border-top-style:solid; 
-                border-color:red;
-                background-color:darkred;
+            body{
+                height: 100%;
+                margin: 0;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background: #2BE9B7;
+                background: -webkit-radial-gradient(top left, #2BE9B7, #89F4C3);
+                background: -moz-radial-gradient(top left, #2BE9B7, #89F4C3);
+                background: radial-gradient(to bottom right, #2BE9B7, #89F4C3);
+            } 
+            .center{
+                text-align: center;
             }
-            .highlightY{
-                text-align:center;
-                border-right-style:solid;
-                border-left-style:solid;
-                border-bottom-style:solid;
-                border-top-style:solid; 
-                border-color:yellow;
-                background-color:yellowgreen;
+            ul{
+                display:table;
+                margin: 0 auto;
             }
-            .invisible{
-                visibility:hidden;
-            }
-            .visible{
-                visibility:visible;
-            }
-        
-        
-        
-        
-        
         </style>
-        <script src="Connect4.js"></script>
     </head>
     <body>
-        <h1>Welcome to the Placeholder Website for micahsoft.net!</h1>
-        <p>This is just a test, don't get too excited. While you wait, you might as well play a game of connect 4</p>
-        <button onclick="createBoard()">Start Game</button>
-        <p class="invisible" id="p">Current Player: <span id="playerText">Replace This Text</span></p>
-        <table id="grid">
-            <tr id="dropperRow" class="invisible">
-                <th id="dropper0"><button onclick="dropInto(this)">\ /</button></th>
-            </tr>
-            <tr id="row0">
-                <td id="cell00" class="cells invisible">O</td>
-            </tr>
-        </table>
+        <h1 class = "center">Welcome to micahsoft.net v0.2!</h1>
+        <h2 class = "center">Your One-Stop Shop All Things Micah Related</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3 class = "center">What would you like to feast your eyes on today?</h3>
+        <ul>
+            <li><a href="softprojects.html">Software Projects</a></li>
+            <li><a href="musicprojects.html">Music Projects</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="connect4.html">Play Connect 4</a></li>
+            <li><a href="favoritsites.html">Favorite Sites</a></li>
+            <li><a href="documentedfixes.html">Documented Fixes</a></li>
+        </ul>
+        <!-- <button onclick="createBoard()">Start Game</button> -->
     </body>
 </html>
+
+<!--background: #2BE9B7;
+background: -webkit-radial-gradient(top left, #2BE9B7, #89F4C3);
+background: -moz-radial-gradient(top left, #2BE9B7, #89F4C3);
+background: radial-gradient(to bottom right, #2BE9B7, #89F4C3);-->
+
+
+<!--background: #34CA9C;
+background: -webkit-radial-gradient(top left, #34CA9C, #4C338D);
+background: -moz-radial-gradient(top left, #34CA9C, #4C338D);
+background: radial-gradient(to bottom right, #34CA9C, #4C338D);-->

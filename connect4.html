@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="EN-US">    
+    <head>
+        <!--<link rel="icon" href="http://example.com/favicon.png"> -->
+        <!--<link rel="stylesheet" href="index.css"> --> <!--Links stylesheet-->
+        <meta charset="UTF-8"/>
+        <title>Micahsoft</title> <!--Placeholder-->
+        <style>
+            .cells{
+                text-align:center;
+                border-right-style:solid;
+                border-left-style:solid;
+                border-bottom-style:solid;
+                border-top-style:solid;
+            }
+            .highlightR{
+                text-align:center;
+                border-right-style:solid;
+                border-left-style:solid;
+                border-bottom-style:solid;
+                border-top-style:solid; 
+                border-color:red;
+                background-color:darkred;
+            }
+            .highlightY{
+                text-align:center;
+                border-right-style:solid;
+                border-left-style:solid;
+                border-bottom-style:solid;
+                border-top-style:solid; 
+                border-color:yellow;
+                background-color:yellowgreen;
+            }
+            .invisible{
+                visibility:hidden;
+            }
+            .visible{
+                visibility:visible;
+            }
+            html{
+                height: 100%;
+            }
+            body{
+                height: 100%;
+                margin: 0;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background: #2BE9B7;
+                background: -webkit-radial-gradient(top left, #2BE9B7, #89F4C3);
+                background: -moz-radial-gradient(top left, #2BE9B7, #89F4C3);
+                background: radial-gradient(to bottom right, #2BE9B7, #89F4C3);
+            } 
+            .center{
+                text-align: center;
+            }
+        
+        
+        
+        
+        
+        </style>
+        <script src="Connect4.js"></script>
+    </head>
+    <body>
+        <h1 class="center">Connect 4</h1>
+        <button onclick="createBoard()">Start Game</button>
+        <p class="invisible" id="p">Current Player: <span id="playerText">Replace This Text</span></p>
+        <table id="grid">
+            <tr id="dropperRow" class="invisible">
+                <th id="dropper0"><button onclick="dropInto(this)">\ /</button></th>
+            </tr>
+            <tr id="row0">
+                <td id="cell00" class="cells invisible">O</td>
+            </tr>
+        </table>
+    </body>
+</html>
