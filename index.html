@@ -1,43 +1,77 @@
 <!DOCTYPE html>
 
-<html lang="EN-US">
+<html lang="en">
     <head>
-        <!--<link rel="icon" href="http://example.com/favicon.png"> -->
-        <!--<link rel="stylesheet" href="index.css"> --> <!--Links stylesheet-->
-        <meta charset="UTF-8"/>
-        <title>Micahsoft</title> <!--Placeholder-->
-        <link rel = "stylesheet" type = "text/css" href = "externalstyle.css"/>
+ 
+        <title>Micahsoft</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="main.js"></script>
     </head>
-    <body>
-        <h1 class = "center">Welcome to micahsoft.net v0.2!</h1>
-        <h2 class = "center">Your One-Stop Shop All Things Micah Related</h2>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3 class = "center">What would you like to feast your eyes on today?</h3>
-        <ul class = "centerul">
-            <li><a href="software/">Software Projects</a></li>
-            <li><a href="music/">Music Projects</a></li>
-            <li><a href="about/">About Me</a></li>
-            <li><a href="connect/">Play Connect 4</a></li>
-            <li><a href="sites/">Favorite Sites</a></li>
-            <li><a href="fixes/">Documented Fixes</a></li>
-        </ul>
-        <!-- <button onclick="createBoard()">Start Game</button> -->
+
+    <body class="bd">
+
+        <nav class="navbar bg-dark navbar-expand-md">
+            <a class="navbar-brand" href="#"><img src="/images/Micahsoft4.png" width="100" height="60"></a> 
+            <!-- <img src="Micahsoft.png"> -->
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about/">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="software/">Software Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music/">Music Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sites/">Favorite Sites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fixes/">Documented Fixes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <header class="page-header header container-fluid">
+            <div class="overlay"></div>
+            <div class="description">   
+            </div>
+            <h1 class="headerheader">Welcome to the Landing Page!</h1>
+            <p class="headerparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero fringilla, in pharetra sem ullamcorper.</p>
+        </header>  
+        <div class="container sec">
+        
+            <h3 class = "sec-title">Software Projects</h3>
+            <p>This page contains software projects that I am taking on or have finished </p>
+            <button class="btn btn-outline-secondary btn-lg" type="button" onclick="location.href='/software'">Software</button> 
+        </div>
+        <div class="container sec">
+        
+            <h3 class = "sec-title">Music Projects</h3>
+            <p>This page contains music projects that I have played around with.</p>
+            <button class="btn btn-outline-secondary btn-lg" type="button" onclick="location.href='/music'">Music</button> 
+        </div>
+        <div class="container sec">
+        
+            <h3 class = "sec-title">Favorite Sites</h3>
+            <p>This contains different interesting sites I have found and have enjoyed. </p>
+            <button class="btn btn-outline-secondary btn-lg" type="button" onclick="location.href='/sites'">Sites</button> 
+        </div>
+        <div class="container sec">
+        
+            <h3 class = "sec-title">Docuemted Fixes</h3>
+            <p>This contains different fixes for different problems that I had a hard time finding </p>
+            <button class="btn btn-outline-secondary btn-lg" type="button" onclick="location.href='/fixes'">Fixes</button> 
+        </div>
     </body>
 </html>
-
-<!--background: #2BE9B7;
-background: -webkit-radial-gradient(top left, #2BE9B7, #89F4C3);
-background: -moz-radial-gradient(top left, #2BE9B7, #89F4C3);
-background: radial-gradient(to bottom right, #2BE9B7, #89F4C3);-->
-
-
-<!--background: #34CA9C;
-background: -webkit-radial-gradient(top left, #34CA9C, #4C338D);
-background: -moz-radial-gradient(top left, #34CA9C, #4C338D);
-background: radial-gradient(to bottom right, #34CA9C, #4C338D);-->
