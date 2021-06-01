@@ -4,13 +4,12 @@
 .nav-link,
 .navbar-brand{
     /* color:#F29057; */
-    color: #A65221;
+    color: #A68080;
 }
 body {
     padding: 0;
     margin: 0;
-    background-color:#592202;
-    background: rgba(89,34,2)
+    
 }
 .description {
     left: 50%;
@@ -21,10 +20,12 @@ body {
 }
 
 .header {
-    background-image: url('/images/background.jpg');
+    background-image: url('../images/softbackground.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center; 
     position: relative;
+    /* color:#78778C */
+    color:#01403A;
 }
 .overlay {
     position: absolute;
@@ -39,27 +40,30 @@ body {
     margin: 4em auto;
     padding: 1em;
     position: relative;
-    border: 4px solid #592202;
-    background-color: #8C3503; 
+    border: 4px solid #012623;
+    background-color: #01403A; 
    
 }
 .sec-title {
-    color: #333;
+    color: #A68080;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 .bd{
-    background-color:#736E6C;
+    background-color:#C1D9D4;
 }
 .headerheader{
     /* color: #A65221 */
-    color: #F29057;
+    color:#A68080;
 }
 .headerparagraph{
     /* color: #A65221 */
-    color: #F29057;
     font-size: 1.3rem;
     line-height: 1.5;
+    color: #A68080;
+}
+.sec-para{
+    color:#78778C;
 }
